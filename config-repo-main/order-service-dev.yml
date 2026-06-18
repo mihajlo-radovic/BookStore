@@ -1,0 +1,14 @@
+global:
+  message: Welcome to customer service dev environment!
+server:
+  port: 8084
+message: hello from order dev
+spring: 
+  datasource:
+    url: jdbc:h2:mem:order_master
+    username: root
+    password:
+jpa: 
+  hibernate: 
+      ddl-auto: update
+  show-sql: true

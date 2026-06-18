@@ -1,0 +1,14 @@
+global:
+  message: Welcome to customer service prod environment!
+server:
+  port: 8082
+message: hello from production
+spring: 
+  datasource:
+    url: jdbc:mysql://localhost:3306/cust_prod
+    username: root
+    password:
+jpa: 
+  hibernate: 
+      ddl-auto: update
+  show-sql: true

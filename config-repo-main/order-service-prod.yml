@@ -1,0 +1,14 @@
+global:
+  message: Welcome to order service prod environment!
+server:
+  port: 8084
+message: hello from order production
+spring: 
+  datasource:
+    url: jdbc:h2:mem:order_prod
+    username: root
+    password:
+jpa: 
+  hibernate: 
+      ddl-auto: update
+  show-sql: true
